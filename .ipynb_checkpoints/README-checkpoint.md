@@ -75,4 +75,4 @@ The second alternative was to adjust the sizes of the SMA windows for the algori
 
 The final iteration had the algorithm and training set parameters set the same as the baseline model (ie. 4 and 100 short and long SMA windows, and a 3 month training period) but this time a different classifier was used. The AdaBoost classifier was used as an alternative to the SVM classifer used previously. This yielded an improvement of 14.4% better returns compared to the baseline of 8.6% better returns vs. actual. 
 
-The Adaboost classifer by itself did not provide better results than the tuned algorithms of Alternative 1 or 2, but with fine tuning itself, it can be expected that this classifier should be a better match for this data set than the SVM classifier.
+The Adaboost classifer by itself did not provide better results than Alternative 1 or 2, but with fine tuning, it can be expected that this classifier should be a better match for this data set than the SVM classifier.
